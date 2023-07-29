@@ -16,7 +16,12 @@
     display: flex;
     background-color: black;
     height:  70px;
-    margin: 2px;
+    padding: 6px;
+}
+
+.HeaderContainer img{
+    border-radius: 10px;
+    padding: 2px
 }
 
 .ContentContainer {
@@ -25,6 +30,7 @@
     margin: 2px        
 }
 .FooterContainer {
+    
     background-color: black;
     height: 70px;
     margin-top: auto;
