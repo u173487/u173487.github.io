@@ -1,9 +1,31 @@
-.HeaderContainer {
-    background-color: black;
-    height:  70px;
+.OuterFlexContainer {
+    display: flex;
+    flex-direction: column
 }
 
+.InnerFlexContainer {
+    display: flex;
+    flex-direction: column
+}
+
+.HeaderContainer {
+    display: flex;
+    background-color: black;
+    height:  70px;
+    color: white;
+    margin: 2px;
+}
+
+.ContentContainer {
+    display: flex;
+    flex: 1;
+    color: white;
+    margin: 2px        
+}
 .FooterContainer {
     background-color: black;
     height: 70px;
+    margin-top: auto;
+    color: white;
+    margin: 2px
 }
